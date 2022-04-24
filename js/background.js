@@ -7,4 +7,4 @@ const chosenImage = images[Math.floor(Math.random() * images.length)];
 // bgImage.src = `img/${chosenImage}`;
 
 // document.body.appendChild(bgImage);
-document.body.style.cssText = `background: url("../img/${chosenImage}") no-repeat; background-size:cover;`;
+document.body.style.cssText = `background: url("img/${chosenImage}") no-repeat; background-size:cover;`;
