@@ -24,6 +24,22 @@ body {
   margin: auto;
 }
 
+input {
+  width: 180px;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+#login-form button {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: 700;
+  box-shadow: 1px 1px rgba(112, 111, 111, 0.3);
+}
+
 #clock {
   font-size: 30px;
   margin: 10px;
@@ -32,14 +48,6 @@ body {
 #greeting {
   font-size: 50px;
   margin: 10px;
-}
-
-#todo-form input {
-  width: 180px;
-  padding: 10px;
-  border: none;
-  margin-top: 10px;
-  border-radius: 10px;
 }
 
 #todo-list li {
